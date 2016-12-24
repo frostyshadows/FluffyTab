@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 2,
+    "name" : "FluffyTab",
+    "version" : "1.0",
+    "default_locale" : "en",
+    "description" : "See something cute every time you open a new tab!",
+    "author" : "Sherry Yuan and Russell Blickhan",
+    "background" : {
+        "persistent" : false
+    },
+    "chrome_url_overrides" : {
+        "newtab" : "fluffyTab.html"
+    },
+    "version_name" : "1.0 Initial"
+}
